@@ -1,0 +1,50 @@
+/* Cool Navbar design */
+.navbar {
+    /* Icey blue background color of the Navbar */
+    background: #87CEEB;
+    /* Padding around Navbar text */
+    padding: 1rem 9rem;
+    /* The stacking order of the Navbar */
+    z-index: 1000;
+}
+
+/* Navbar text */
+.navbar .navbar-brand {
+    /* Font size of the Navbar text */
+    font-size: 1.4rem;
+    /* Font weight of the Navbar text */
+    font-weight: 700;
+}
+
+/* Space between the logo and Navbar */
+.mid {
+    /* Full-width */
+    width: 100%;
+    /* Full-height, or else image will go behind  */
+    height: 100vh;
+    /* overflowed content hidden */
+    overflow: hidden;
+    /* Flexbox layout for centering it in the middle */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button design */
+.mid .hero a {
+    /* Background color of the four buttons */
+    background: #F3FAFD;
+    /* Font weight of the four buttons */
+    font-weight: 600;
+    /* Spacing between buttons */
+    padding: 0.6rem 1.4rem;
+    /* Rounded corners for the four buttons */
+    border-radius: 30px;
+    /*  Remove the underline from buttons using decoration */
+    text-decoration: none;
+}
+
+text{
+    color: aliceblue;
+}
